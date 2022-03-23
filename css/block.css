@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+}
+
+.section-box-1 {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.section-box-1_text {
+  width: 696px;
+}
+
+.header .part {
+  flex: 1;
+  display: flex;
+}
+
+.half-one {
+  justify-content: end;
+}
+
+.half-two {
+  justify-content: center;
+}
+
+.header ul li {
+  margin-left: 50px;
+}
+
+.half-one div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
