@@ -39,6 +39,8 @@ ul {
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 ul li {
@@ -111,31 +113,47 @@ ul li {
   background-color: var(--primary-active-text-color);
 }
 
-.primary-title {
+.title {
+  text-align: center;
+}
+
+.first-content-block .tile .title {
+  text-align: left;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-.primary-title,
-.secondary-title,
+.main-title {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.main-title,
+.content-title,
 .tetrary-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   color: var(--primary-text-color);
 }
 
-.primary-title,
-.secondary-title {
+/* .main-title,
+.content-title {
   font-size: 36px;
   letter-spacing: 0.03em;
-}
-.s1 {
-  font-weight: 700;
-  font-size: 14px;
+} */
+
+.content-title {
+  margin-bottom: 50px;
 }
 
-.tetrary-title {
+/* .s1 {
+  font-weight: 700;
+  font-size: 14px;
+} */
+
+/* .tetrary-title {
   font-size: 18px;
   letter-spacing: 0.06em;
-}
+} */
 
 .logo {
   font-family: Raleway;
@@ -163,7 +181,7 @@ footer .logo {
   background: var(--primary-bacground-color);
 }
 
-.hero-banner .primary-title {
+.hero-banner .main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 116%;

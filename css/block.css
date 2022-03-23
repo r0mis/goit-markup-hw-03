@@ -21,8 +21,6 @@ body {
   align-items: center;
 }
 
-
-
 .header {
   height: 80px;
   display: flex;
@@ -53,4 +51,48 @@ body {
 .half-one div:nth-child(2) {
   display: flex;
   align-items: center;
+}
+
+.tile {
+  width: 270px;
+  margin-left: 30px;
+}
+
+.tile:nth-child(1) {
+  margin-left: 0;
+}
+
+.first-content-block {
+  display: flex;
+  justify-content: center;
+}
+
+.second-content-block .tile {
+  width: 370px;
+}
+
+.third-content-block {
+  height: 648px;
+  background-color: var(--secondary-bacground-color);
+}
+.content-block {
+  margin-top: 94px;
+}
+
+.footer-contact {
+  display: flex;
+  padding: 60px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 252px;
+}
+
+.logo-footer {
+  padding-bottom: 20px;
+}
+
+.foter-adress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

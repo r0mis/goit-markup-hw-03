@@ -13,22 +13,31 @@
 
 
 <body>
-    <header>
+    <div class="container">
+    <header class="header">
         <!-- Создаем шапку -->
-        <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li><a class="primary-link" href="./index.html">Студия</a></li>
-                <li><a class="active" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="primary-link" href="">Контакты</a></li>
+        <div class="part half-one">
+            <div>
+                <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
+            </div>
+            <div>
+                <nav>
+                    <ul class="header-menu">
+                        <li><a class="active" href="./index.html">Студия</a></li>
+                        <li><a class="primary-link" href="./portfolio.html">Портфолио</a></li>
+                        <li><a class="primary-link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="part half-two">
+            <ul class="header-contact">
+                <li><a class="secondary-link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="secondary-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-
-        <ul>
-            <li><a class="secondary-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="secondary-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
+
 
 
     <main>
@@ -104,15 +113,16 @@
     </main>
 
     <footer class="footer-contact">
-        <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
-        <address>
-            <a class="tetrary-link" href="https://goo.gl/maps/WQfAx6PYUr162AUSA" target="_blank" rel="noopener noreferrer">г.
+        <a class="logo logo-footer" href="./index.html"><span class="prefix">Web</span>Studio</a>
+        <address class="foter-adress">
+            <a class="tetrary-link foter-adress-item" href="https://goo.gl/maps/WQfAx6PYUr162AUSA" target="_blank" rel="noopener noreferrer">г.
                 Киев, пр-т Леси
                 Украинки, 26</a><br>
-            <a class="secondary-link lighter" href="mailto:info@example">info@example.com</a><br>
-            <a class="secondary-link lighter" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="secondary-link lighter foter-adress-item" href="mailto:info@example">info@example.com</a><br>
+            <a class="secondary-link lighter foter-adress-item" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
     </footer>
+    </div>
 </body>
 </div>
 
