@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   display: flex;
   justify-content: center;
-}
+} */
 
 .container {
   width: 1200px;
+}
+.container-wraper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .section-box-1 {
@@ -25,6 +30,7 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
+  margin: 0px;
 }
 
 .section-box-1_text {
@@ -37,7 +43,7 @@ body {
 }
 
 .half-one {
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .half-two {
@@ -76,7 +82,7 @@ body {
   background-color: var(--secondary-bacground-color);
 }
 .content-block {
-  margin-top: 94px;
+  /* margin-top: 94px; */
 }
 
 .footer-contact {
