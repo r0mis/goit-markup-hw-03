@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
-
-
+<html lang="en">
 <head>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/block.css" />
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
 </head>
 
-<body class="backgraund">
-    <div class="container-wraper">
-    <header class= "container header">
-        <!-- Создаем шапку -->
-        <div class="part half-one ">
-            <div>
-                <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
-            </div>
-            <div>
+<body>
+
+   <div class="container-wrapper">
+       <header class="container header-container">
+           <div class=header-left>
+               <div>
+                    <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
+               </div>
+
+                <div>
                 <nav>
                     <ul class="header-menu">
                         <li><a class="active" href="./index.html">Студия</a></li>
@@ -28,108 +25,138 @@
                         <li><a class="primary-link" href="">Контакты</a></li>
                     </ul>
                 </nav>
+                </div>
             </div>
+
+
+           <div class="header-right">
+            <div>
+                <ul class="header-contact">
+                    <li><a class="secondary-link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="secondary-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+
+           </div>
+        </header>
+
+   </div>
+
+    <div class="container-wrapper primary-bg">
+        <div class="container hero-baner-conteiner">
+            <div class="hero-baner-content-wrapper">
+                <div>
+                    <h1 class="primary-title">Эффективные решения для вашего бизнеса</h1>
+                </div>
+
+                <div>
+                    <button type="button" class="primary-btn">Заказать услугу</button>
+                </div>
+            </div>
+
+       
         </div>
-        <div class="part half-two">
-            <ul class="header-contact">
-                <li><a class="secondary-link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="secondary-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </div>
-    </header>
+
     </div>
 
-    <main>
-
-        <section class="hero-banner section-box-1">
-            <h1 class="main-title section-box-1_text">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="primary-btn section-box-1_button">Заказать услугу</button>
-        </section>
-
-        <div class="container-wraper">
-            <div class="container">
-        <section class="content-block first-content-block">
-            <ul>
-                <li class="tile">
-                    <h2 class="title s1">Внимание к деталям</h2>
-                    <p class="primary-box">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+    <div class="container-wrapper">
+        <section class="container section">
+            <!-- <div> -->
+            <ul class="section-list s1">
+                <li>
+                    <h3 class="s1_title">Внимание к деталям</h3>
+                    <p class="s1_content">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="tile">
-                    <h2 class="title s1">Пунктуальность</h2>
-                    <p class="primary-box">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <li>
+                    <h2 class="s1_title">Пунктуальность</h2>
+                    <p class="s1_content">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                    </p>
                 </li>
-                <li class="tile">
-                    <h2 class="title s1">Планирование</h2>
-                    <p class="primary-box">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li>
+                    <h2 class="s1_title">Планирование</h2>
+                    <p class="s1_content">Равным образом консультация с широким активом в значительной степени обуславливает.
+                    </p>
                 </li>
-                <li class="tile">
-                    <h2 class="title s1">Современные технологии</h2>
-                    <p class="primary-box">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li>
+                    <h2 class="s1_title">Современные технологии</h2>
+                    <p class="s1_content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            <!-- </div> -->
         </section>
-
-        <section class="container content-block second-content-block">
+    </div>
+        
+        <div class="container-wrapper">
+        <section class="section container">
             <!-- Вставляем картинки и описание -->
-            <h2 class="content-title title">Чем мы занимаемся</h2>
-            <ul>
-                <li class="tile">
-                    <img src="./images/img_pc.jpg" alt="imac">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="section-list">
+                <li>
+                    <img src="./images/img_pc.jpg" alt="imac" width="370">
                 </li>
-                <li class="tile">
-                    <img src="./images/img_tel.jpg" alt="laptop">
+                <li>
+                    <img src="./images/img_tel.jpg" alt="laptop" width="370">
                 </li>
-                <li class="tile">
-                    <img src="./images/img_tab.jpg" alt="tablet">
+                <li>
+                    <img src="./images/img_tab.jpg" alt="tablet" width="370">
                 </li>
             </ul>
+
         </section>
+        </div>
 
 
-        <section class="container content-block third-content-block">
+        <div class="container-wrapper ">
+        <section class="section container ">
             <!-- "Вставляем картинки и описание" -->
-            <h2 class="content-title title">Наша команда</h2>
-            <ul>
-                <li class="tile secondary-box">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="section-list">
+                <li class="secondary-box">
                     <img src="./images/img_igor.jpg" alt="brown shirt" width="270">
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li class="tile secondary-box">
+                <li class="secondary-box">
                     <img src="./images/img_olga.jpg" alt="black jacket" width="270">
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li class="tile secondary-box">
+                <li class="secondary-box">
                     <img src="./images/img_nikolay.jpg" alt="blue shirt" width="270">
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li class="tile secondary-box">
+                <li class="secondary-box">
                     <img src="./images/img_mikhail.jpg" alt="black T-shirt" width="270">
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
         </section>
-        </div><div>
-    </main>
-
-    <footer class="footer-contact">
-        <div class="container-wraper">
-       <div class="container">
-        <a class="logo logo-footer" href="./index.html"><span class="prefix">Web</span>Studio</a>
-        <address class="foter-adress">
-            <a class="tetrary-link foter-adress-item" href="https://goo.gl/maps/WQfAx6PYUr162AUSA" target="_blank" rel="noopener noreferrer">г.
-                Киев, пр-т Леси
-                Украинки, 26</a><br>
-            <a class="secondary-link lighter foter-adress-item" href="mailto:info@example">info@example.com</a><br>
-            <a class="secondary-link lighter foter-adress-item" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
         </div>
+        <!-- </main>
+
+    </div> -->
+
+    <div class="container-wrapper primary-bg">
+        <footer class="container footer-container">
+            <div class="footer-content-wrapper">
+                <div>
+                    <a class="logo" href="./index.html"><span class="prefix">Web</span>Studio</a>
+                </div>
+
+                <address><ul>
+                    <li><a class="tetrary-link" href="https://goo.gl/maps/WQfAx6PYUr162AUSA" target="_blank" rel="noopener noreferrer">г.
+                        Киев, пр-т Леси
+                        Украинки, 26</a></li>
+                    <li><a class="secondary-link lighter" href="mailto:info@example">info@example.com</a></li>
+                    <li><a class="secondary-link lighter" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                </address></ul>
+                </div>
+        </footer>
     </div>
-    </footer>
 
+
+    
 </body>
-
 </html>
